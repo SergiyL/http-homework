@@ -1,0 +1,28 @@
+GET HEADERS:
+
+	Cache-Control: private, no-cache, no-store, must-revalidate  -  використовується для задання інструкцій кешування як для запитів так і для відповідей.
+	Connection: keep-alive  -  дані про те чи з'єднання підтримується після встановлення. keep-alive з'єднання не закрите і можна надсилати інші запити.
+	Content-Encoding: gzip  -  використовується для стиснення медіа даних при передачі. gzip - формат стиснення.
+	Content-Type: text/html; charset=UTF-8  -  формат і спосіб представлення ресурсу
+	Date: Wed, 21 Mar 2018 17:16:11 GMT  -  час та дата генерації запиту
+	Expires: Sat, 01 Jan 2000 00:00:00 GMT  -  дата закінчення терміну актуальності контенту
+	Pragma: no-cache  -  використовується для зворотньої сумісності в HTTP/1.0
+	Set-Cookie: fr=0Er8mNKbfbc54ApTq..BaspNb.Wa.AAA.0.0.BaspNb.AWUxNgYf; expires=Tue, 19-Jun-2018 17:16:11 GMT; Max-Age=7776000; path=/; domain=.facebook.com; secure; httponly, sb=W5OyWs3TO2-9wQvLdNLaWJFY; expires=Fri, 20-Mar-2020 17:16:11 GMT; Max-Age=63072000; path=/; domain=.facebook.com; secure; httponly  -  використовується для надсилання кукі з серверу до агента користувача
+	Strict-Transport-Security: max-age=15552000; preload  -  вказує браузеру на потребу використання виключно https замість http
+	Transfer-Encoding: chunked  -  визначає форму кодування котра використана при передачі повідомлення. chunked дані були надіслані серією фрагментів
+	Vary: Accept-Encoding  -  визначає використання для майбутніж запитів кешовану відповідь робити новий запит з сервера.
+	X-Content-Type-Options: nosniff  -  маркер що використовується сервером для вказівки що стандартизований спосіб індикації (MIME) не повинен змінюватись 
+	X-Fb-Debug: xe5LGhsj8SHSieFLrWRballgLW69C7BpWEwKYkSKheLiziCznKo39LmvOimqbCe2oadLq5Vz2FfGgPl+W4iO8A==  -  специфічний заголовок фейсбука для надсилання баг репортів
+	X-Frame-Options: DENY  -   вказує чи повинен браузер відображати сторінки з тегами <frame>, <iframe> або <object>
+	X-Xss-Protection: 0  -  особливість браузера зупиняти завантаження сторінки при виявленні XSS атаки
+
+
+HEAD HEADERS:
+
+	Alt-Svc: hq=":443"; ma=2592000; quic=51303432; quic=51303431; quic=51303339; quic=51303335,quic=":443"; ma=2592000; v="42,41,39,35"  -  повідомляє клієнту про наявність альтернативного сервісу 
+	P3p: CP="This is not a P3P policy! See http://support.google.com/accounts/answer/151657?hl=en for more info."  -  протокол що дозволяє сайтам інформувати браузер про ймовірне отримання особистих даних користувача
+	Server: YouTube Frontend Proxy  -  назва веб серверу ресурсу
+	
+
+
+
